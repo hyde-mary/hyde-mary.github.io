@@ -1,0 +1,174 @@
+:root {
+  --text: #000000;
+  --background: #f7eeef;
+  --primary: #5a0c11;
+  --secondary: #f4e7e8;
+  --accent: #b25c60;
+}
+
+html {
+  background-color: var(--background);
+  font-family: 'Fresca';
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Elsie';
+  font-weight: 700;
+  color: var(--text)
+}
+
+html {
+  font-size: 100%;
+}
+
+/* 16px */
+
+h1 {
+  font-size: 52px !important;
+  /* 67.36px */
+}
+
+h2 {
+  font-size: 3.158rem;
+  /* 50.56px */
+}
+
+h3 {
+  font-size: 2.369rem;
+  /* 37.92px */
+}
+
+h4 {
+  font-size: 1.777rem;
+  /* 28.48px */
+}
+
+h5 {
+  font-size: 1.333rem !important;
+  font-weight: bold !important;
+  /* 21.28px */
+}
+
+small {
+  font-size: 0.750rem;
+  /* 12px */
+}
+
+.banner-bg {
+  background-color: var(--accent);
+  color: var(--secondary);
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.button-container {
+  background-color: var(--background);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  font-family: 'Fresca';
+}
+
+.my-button {
+  background-color: var(--primary) !important;
+  font-size: 22px !important;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+#button-randomize {
+  font-size: 22px;
+  font-family: sans-serif;
+  text-decoration: none;
+  padding: 10px;
+  letter-spacing: 2px;
+  transition: all .25s;
+}
+
+#button-randomize:hover {
+  letter-spacing: 4px;
+}
+
+.main-container {
+  background-color: var(--background);
+  text-align: center !important;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.my-container {
+  background-color: var(--secondary);
+}
+
+.my-random-row {
+  background-color: var(--accent);
+  color: white;
+  border-radius: 20px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.my-row {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.my-col {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.my-card {
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  transition: transform 0.1s ease-in-out;
+}
+
+.card-title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+}
+
+.my-card:hover {
+  transform: translateX(10px);
+}
+
+#hidden-card1,
+#hidden-card2 {
+  background-color: white !important;
+}
+
+.hide-element {
+  visibility: none;
+  opacity: 0;
+  transition: opacity 5s;
+}
+
+.show-element {
+  animation: fadeIn 5s;
+}
+
+.zoom-element{
+  animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
