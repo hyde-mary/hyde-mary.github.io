@@ -26,7 +26,6 @@ document.addEventListener('DOMContentLoaded', function () {
     var cardContainer = document.querySelector('.row.my-random-row');
 
     function randomizeCard() {
-
         var randomIndex1, randomIndex2;
 
         do {
@@ -36,6 +35,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
         var selectedCard1 = cards[randomIndex1];
         var selectedCard2 = cards[randomIndex2];
+
+        console.log(selectedCard1);
+        console.log(selectedCard2);
 
         var cardHtml = `
       <h2 style="padding-top: 40px;"> Your Babies for Today </h2>

@@ -172,3 +172,7 @@ small {
     opacity: 1;
   }
 }
+
+img[src="assets/18.png"]{
+  padding-top: 30px;
+}
