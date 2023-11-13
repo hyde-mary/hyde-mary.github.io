@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
         { image: 'assets/15.jpg', title: 'Kazeyo' },
         { image: 'assets/16.jpg', title: 'Hihimaru'},
         { image: 'assets/17.jpg', title: 'Nen Nen'},
-        { image: 'assets/17.jpg', title: 'Fujii Kaze'},
+        { image: 'assets/18.png', title: 'Fujii Kaze'},
         { image: 'assets/19.png', title: 'Sunny Gear 2'},
         { image: 'assets/20.png', title: 'Vearth'},
     ];
