@@ -14,7 +14,12 @@ document.addEventListener('DOMContentLoaded', function () {
         { image: 'assets/12.jpg', title: 'Working Hard' },
         { image: 'assets/13.png', title: 'Mokoko' },
         { image: 'assets/14.jpg', title: 'Yasashisa' },
-        { image: 'assets/15.jpg', title: 'Kazeyo' }
+        { image: 'assets/15.jpg', title: 'Kazeyo' },
+        { image: 'assets/16.jpg', title: 'Hihimaru'},
+        { image: 'assets/17.jpg', title: 'Nen Nen'},
+        { image: 'assets/17.jpg', title: 'Fujii Kaze'},
+        { image: 'assets/19.png', title: 'Sunny Gear 2'},
+        { image: 'assets/20.png', title: 'Vearth'},
     ];
 
     var buttonRandomize = document.getElementById('button-randomize');
